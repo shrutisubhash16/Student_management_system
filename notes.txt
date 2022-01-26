@@ -1,0 +1,4 @@
+client :    axios - https request
+            moment - date and time
+            react-file-base64 - converting image
+            redux and redux - to do asyncronous task
