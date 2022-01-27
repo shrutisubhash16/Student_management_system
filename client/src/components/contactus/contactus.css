@@ -1,0 +1,58 @@
+.f{
+    display: block;
+}
+
+.p{
+    display: flex;
+    align-items: center;
+}
+
+.p img{
+    width: 140%;
+    height: 70%;
+}
+
+.field{
+    display: block;    
+}
+
+.field p{
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    font-weight: 700;
+}
+
+.field input, .field textarea{
+    text-align: left;
+    width: 100%;
+    margin: 0% 0% 6% 0%;
+    border: 1px gray solid;
+    border-radius: 10px;
+}
+
+.submit{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    width: 20%;
+    color: whitesmoke;
+    padding: 0.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit a{
+    text-decoration: none;
+}
+
+.submit a p{
+    margin-top: 15px;
+    font-size: 110%;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.submit a p:hover{
+    color: navy
+}

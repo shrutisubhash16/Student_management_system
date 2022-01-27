@@ -20,7 +20,7 @@ export default function Create() {
 
   return (
     <>
-    <h2>Create Student</h2>
+    <h2>Register</h2>
     <Box
       component="form"
       sx={{

@@ -1,0 +1,17 @@
+.n{
+    background : radial-gradient(navy,black);
+    color : whitesmoke;
+    padding: 1% 18%;
+    margin-top: 3%;
+}
+
+.m{
+    margin: 1%;
+    display: block;
+}
+
+.m a{
+    display: block;
+    cursor:pointer;
+
+}

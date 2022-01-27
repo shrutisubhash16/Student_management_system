@@ -9,6 +9,7 @@ import Paper from '@mui/material/Paper';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete'; 
 import axios from 'axios';
+import './showStudent.css'
 
 
 export default function ShowStudent() {
@@ -29,8 +30,8 @@ export default function ShowStudent() {
 
   return (
     <>
-    <h2>All Students</h2>
-    <TableContainer component={Paper}>
+    <h2>Check your name in the list</h2>
+    <TableContainer component={Paper} className='tab'>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>

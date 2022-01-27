@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.onee{
+    background: radial-gradient( rgb(4, 4, 87),rgb(3, 3, 3));
+    color: whitesmoke;
+}
+
+.onee div{
+    margin : 2% 1%;
+}
+
+.girl{
+    padding: 3% 15%;
+}
+
+.too{
+    display: block;
+    padding: 2%;
+    background-color: cornflowerblue;
+}
+
+.too h1{
+    display: block;
+    text-align: center;
+    padding: 2%;
+    color: rgb(9, 38, 92);
+}
+
+.b{
+    background-color: rgb(144, 174, 230);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.g{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(243, 240, 240);
+    border-radius: 10px;
+}
+
+.g i{
+    display: inline;
+    margin: 3%;
+    background-color: gainsboro;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.g h4{
+    display: inline;
+    margin: 1%;
+}
+
+.i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one a{
+    text-decoration: none; 
+}
+
+.one section{
+    padding: 8% 12%;
+}
+
+.one section div h1{
+    text-align: left;
+    display: inline;
+    font-weight: 900;
+    font-size: 350%;
+}
+
+.one section div{
+    text-align: left;
+}
+
+.one section h5{
+    margin: 4% 0%;
+    text-align: left;
+    color: rgb(97, 97, 97);
+    margin-bottom: 50px;
+}
+
+.one section a{
+    background-color: cornflowerblue;
+    padding: 3%;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 150%;
+}
+
+.one section a:hover{
+    font-size: 170%;
+    color: navy;
+}
+
+.two{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.link a{
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 5px 20px;
+}
+
+.link a:hover{
+    background-color: whitesmoke;
+    color: navy;
+    text-decoration: none;
+
+}
+
+.link a li {
+    font-size: 130%;
+}
+
+.blue{
+    color: cornflowerblue;
+    margin-left: 1%;
+}
+
+.two section{
+    padding: 8%;
+}
+
+.two section img{
+    height: 100%;
+    width: 100%;
+}
+
+.s, .t, .e, .k{
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 1.7%;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.s{
+    top : 12%;
+    left: 15%;
+    color: rgb(28, 175, 35);
+}
+
+.t{
+    top: 22%;
+    right: 15%;
+    color: orange;
+}
+
+.e{
+    bottom: 10%;
+    right: 10%;
+    color: blueviolet;
+}
+
+.k{
+    left: 15%;
+    bottom: 18%;
+    color: rgb(206, 20, 20);
+}
